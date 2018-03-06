@@ -1,42 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>shirlaine.com</title>
-    <link>/</link>
-    <description>Recent content on shirlaine.com</description>
+    <title>Blogs on shirlaine.com</title>
+    <link>/blog/</link>
+    <description>Recent content in Blogs on shirlaine.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 06 Mar 2018 22:30:29 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 06 Mar 2018 21:54:12 +0800</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Tweeter Tweet</title>
-      <link>/projects/tweeter-tweet/</link>
-      <pubDate>Tue, 06 Mar 2018 22:30:29 +0800</pubDate>
-      
-      <guid>/projects/tweeter-tweet/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Yay</title>
-      <link>/post/yay/</link>
-      <pubDate>Tue, 06 Mar 2018 22:09:54 +0800</pubDate>
-      
-      <guid>/post/yay/</guid>
-      <description>#YAYYY Test this is my firs tever post</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>/about/</link>
-      <pubDate>Tue, 06 Mar 2018 21:58:56 +0800</pubDate>
-      
-      <guid>/about/</guid>
-      <description>Site is still in the process of being &amp;hellip;.</description>
-    </item>
     
     <item>
       <title>Using Hugo &#43; Github Pages</title>

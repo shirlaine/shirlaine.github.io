@@ -14,10 +14,10 @@
 <title>
 
 
-     Tags 
+     About 
 
 </title>
-<link rel="canonical" href="/tags/">
+<link rel="canonical" href="/about/">
 
 
 
@@ -55,27 +55,25 @@ crossorigin="anonymous"></script>
 
 
 
-  <link href="/tags/index.xml" rel="alternate" type="application/rss+xml" title="shirlaine.com" />
-
 
 </head>
 
 <body>
+<div class="section" id="top">
+    
 
-    <div class="section" id="top">
+    <div class="container hero  fade-in one ">
         
-        <div class="container hero  fade-in one ">
+        <h1 class="bold-title is-1">About</h1>
+    </div>
+    
+
+    
+    <div class="section  fade-in two ">
+
+        <div class="container">
             
-            <h1 class="bold-title is-1">Tags</h1>
-        </div>
-        
-
-        
-        <div class="section no-padding  fade-in two ">
-
-            <div class="container">
-                
-                <hr>
+            <hr>
 <nav class="nav nav-center">
     <span id="nav-toggle" class="nav-toggle"  onclick="document.getElementById('nav-menu').classList.toggle('is-active');">
       <span></span>
@@ -89,11 +87,9 @@ crossorigin="anonymous"></script>
       <span class="nav-item">
         <a href="/#about">About</a> 
       </span>
-    
       <span class="nav-item">
-        <a href="/#projects">Projects</a> 
-      </span>
-    
+        <a href="/">Back to </a>
+      </span> 
       <span class="nav-item">
         <a href="/#contact">Contact</a>
       </span>
@@ -105,28 +101,31 @@ crossorigin="anonymous"></script>
     </div>
 </nav>
 <hr>
-            </div>
+        </div>
+        
+
+        <div class="container markdown  fade-in two  top-pad">
             
-            <article>
-                
-                
-            </article>
+             
+            
+            <p>Site is still in the process of being &hellip;.</p>
 
+        </div>
+        
 
-            <div class="container">
-                <div class="section tags-list">
-                    
-                </div>
+        <div class="disqus">
+            
+        </div>
 
-                <div class="container has-text-centered top-pad">
-                    <hr>
-                    <a href="/tags/#top">
-                        <i class="fa fa-arrow-up"></i>
-                    </a>
-                    <hr>
-                </div>
+        <div class="container has-text-centered top-pad">
+            <hr>
+            <a href="/about/#top">
+                <i class="fa fa-arrow-up"></i>
+            </a>
+            <hr>
+        </div>
 
-                <div class="section" id="footer">
+        <div class="section" id="footer">
     <div class="container has-text-centered">
         
         <span class="footer-text"><a href="https://github.com/hivickylai/hugo-theme-introduction" target="_blank" rel="noopener">Introduction</a> theme for <a href="http://gohugo.io/" target="_blank" rel="noopener">Hugo</a>. Made with <i class="fa fa-heart"></i> and <i class="fa fa-coffee"></i>. <a href="https://vickylai.io" target="_blank" rel="noopener">Vicky Lai</a> 2018</span>
@@ -134,21 +133,21 @@ crossorigin="anonymous"></script>
     </div>
 </div>
 
-            </div>
-            
-        </div>
-        
+    </div>
+    
+</div>
 
-        
-        <script>
-            $('a[href^="\/tags\/#"]').click(function (e) {
-                e.preventDefault();
-                var target = this.hash;
-                $('html, body').animate({
-                    scrollTop: $(target).offset().top
-                }, 500);
-                return false;
-            })
-        </script>
+
+
+<script>
+    $('a[href^="\/about\/#"]').click(function (e) {
+        e.preventDefault();
+        var target = this.hash;
+        $('html, body').animate({
+            scrollTop: $(target).offset().top
+        }, 500);
+        return false;
+    })
+</script>
 
 </body>

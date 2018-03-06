@@ -9,7 +9,7 @@
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="referrer" content="no-referrer">
-<meta name="description" content="Website Description">
+<meta name="description" content="Website description.">
 
 <base href="/">
 <title>
@@ -25,10 +25,6 @@
 
 
 
-
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css">
-    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
 
 
 
@@ -60,7 +56,7 @@ crossorigin="anonymous"></script>
 
 
 
-  <link href="/index.xml" rel="alternate" type="application/rss+xml" title="Introduction" />
+  <link href="/index.xml" rel="alternate" type="application/rss+xml" title="shirlaine.com" />
 
 
 </head>
@@ -68,7 +64,7 @@ crossorigin="anonymous"></script>
 
 <div class="section" id="top">
 
-<div class="hero is-large">
+<div class="hero is-fullheight">
 
 
     <div class="hero-body">
@@ -78,7 +74,7 @@ crossorigin="anonymous"></script>
                 Hi, I'm Shirlaine.
             </h1>
             <h3 class="subtitle is-3  fade-in two">
-                Web Developer, I am.
+                Aspiring Web Developer, Pet Styling Hobbyist.
             </h3>
 
 
@@ -95,6 +91,10 @@ crossorigin="anonymous"></script>
 
     <a href="https://linkedin.com/">
         <i class="fa fa-linkedin"></i>
+    </a>
+
+    <a href="https://github.com/">
+        <i class="fa fa-github"></i>
     </a>
 
 </div>
@@ -131,10 +131,23 @@ crossorigin="anonymous"></script>
         <div class="columns">
 
             <div class="column is-one-third has-text-centered">
-              <img class="img-responsive avatar" src="/img/profile.jpg" alt="My profile picture.">
+              <img class="img-responsive avatar" src="/img/workday.jpg" alt="My profile picture.">
             </div>
 
             <div class="column markdown">
+
+
+
+
+
+
+                            <p>Site is still in the process of being &hellip;.</p>
+
+
+
+
+
+
 
             </div>
         </div>
@@ -156,12 +169,59 @@ crossorigin="anonymous"></script>
     <div class="section is-small">
         <div class="columns is-multiline">
 
+
+            <div class="column is-one-third">
+
+                <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-3by2">
+                                <a
+                                    href="www.tweeter-tweet.herokuapp.com"
+                                    >
+                                    <img src="img/tweeter.jpg">
+                                </a>
+                            </figure>
+                        </div>
+                        <div class="card-content has-text-centered top-pad">
+                                <a
+                                    href="www.tweeter-tweet.herokuapp.com"
+                                    >
+                                    Tweeter Tweet
+                                </a>
+                        </div>
+                </div>
+            </div>
+
     </div>
 </div>
 </div>
 
 
 
+
+<div class="modal" id="modaltweeter-tweet">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+
+        <header class="modal-card-header bottom-pad">
+            <p class="modal-card-title has-text-centered">Tweeter Tweet</p>
+        </header>
+
+
+            <img src="img/tweeter.jpg" class="img-responsive img-centered">
+
+
+    </div>
+    <button class="modal-close is-large" aria-label="close" id="closetweeter-tweet"></button>
+</div>
+<script>
+    $('#projecttweeter-tweet').click(function() {
+        $('#modaltweeter-tweet').addClass('is-active');
+    });
+    $('#closetweeter-tweet').click(function() {
+        $('#modaltweeter-tweet').removeClass('is-active');
+    });
+</script>
 
 
 
@@ -185,6 +245,16 @@ crossorigin="anonymous"></script>
 
 <h2 class="title is-2 has-text-centered">Latest Post</h2>
 
+    <div class="summary">Mar 6, 2018
+        <h3 class="title is-3 latest-post-title"><a href="/blog/first/">Using Hugo &#43; Github Pages</a></h3>
+            <div class="markdown">
+            What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&rsquo;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+            <a href="/blog/first/">...Read More</a>
+
+            </div>
+    </div>
+
 
 
 
@@ -206,6 +276,16 @@ crossorigin="anonymous"></script>
     <h2 class="title is-2">Contact</h2>
         <div class="markdown">
 
+
+
+
+
+
+
+
+
+
+
         </div>
 
 
@@ -216,14 +296,14 @@ crossorigin="anonymous"></script>
 
         <script>
         $(document).ready(function() {
-        var time = moment().tz("America\/Los_Angeles").format("h:mm A");
+        var time = moment().tz("Asia\/Singapore").format("h:mm A");
         $('#time').html(time);
         })
         </script>
 
 
 
-        <h3 class="subtitle is-3 has-text-centered top-pad"><a href="mailto:youremail@email.com">youremail@email.com</a></h3>
+        <h3 class="subtitle is-3 has-text-centered top-pad"><a href="mailto:shirlaine.com@gmail.com">shirlaine.com@gmail.com</a></h3>
 
 
         <div class="social-icons">
@@ -240,6 +320,10 @@ crossorigin="anonymous"></script>
         <i class="fa fa-linkedin"></i>
     </a>
 
+    <a href="https://github.com/">
+        <i class="fa fa-github"></i>
+    </a>
+
 </div>
     </div>
 
@@ -253,7 +337,7 @@ crossorigin="anonymous"></script>
 <div class="section" id="footer">
     <div class="container has-text-centered">
 
-        <span class="footer-text"><a href="https://github.com/hivickylai/hugo-theme-introduction" target="_blank" rel="noopener">Introduction</a> theme for <a href="http://gohugo.io/" target="_blank" rel="noopener">Hugo</a>. Made with <i class="fa fa-heart"></i> and <i class="fa fa-coffee"></i>. <a href="https://vickylai.io" target="_blank" rel="noopener">Vicky Lai</a> 2018</span>
+        <span class="footer-text"><a href="https://github.com/hivickylai/hugo-theme-introduction" target="_blank" rel="noopener">Introduction</a> theme for <a href="http://gohugo.io/" target="_blank" rel="noopener">Hugo</a>. </span>
 
     </div>
 </div>

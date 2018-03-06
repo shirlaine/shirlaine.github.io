@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on shirlaine.com</title>
+    <link>/projects/</link>
+    <description>Recent content in Projects on shirlaine.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 06 Mar 2018 22:30:29 +0800</lastBuildDate>
+    
+	<atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tweeter Tweet</title>
+      <link>/projects/tweeter-tweet/</link>
+      <pubDate>Tue, 06 Mar 2018 22:30:29 +0800</pubDate>
+      
+      <guid>/projects/tweeter-tweet/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
