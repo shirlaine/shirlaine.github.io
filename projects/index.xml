@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>CSS happy Grid</title>
+      <title>CSS Happy Grid</title>
       <link>/projects/happy-grid/</link>
       <pubDate>Tue, 06 Mar 2018 22:30:29 +0800</pubDate>
       
@@ -21,7 +21,7 @@
     </item>
     
     <item>
-      <title>E-commerce-app</title>
+      <title>E-commerce App</title>
       <link>/projects/e-commerce/</link>
       <pubDate>Tue, 06 Mar 2018 22:30:29 +0800</pubDate>
       
@@ -30,7 +30,25 @@
     </item>
     
     <item>
-      <title>To Do</title>
+      <title>Facebook API App</title>
+      <link>/projects/client/</link>
+      <pubDate>Tue, 06 Mar 2018 22:30:29 +0800</pubDate>
+      
+      <guid>/projects/client/</guid>
+      <description> This is a test post with a link to my e-commerce app </description>
+    </item>
+    
+    <item>
+      <title>TechLadies Bootcamp Application App</title>
+      <link>/projects/techladies-app/</link>
+      <pubDate>Tue, 06 Mar 2018 22:30:29 +0800</pubDate>
+      
+      <guid>/projects/techladies-app/</guid>
+      <description> This is a test post with a link to my e-commerce app </description>
+    </item>
+    
+    <item>
+      <title>To Do App</title>
       <link>/projects/too-doo-list/</link>
       <pubDate>Tue, 06 Mar 2018 22:30:29 +0800</pubDate>
       
@@ -39,7 +57,7 @@
     </item>
     
     <item>
-      <title>Twitter Tweet Clone</title>
+      <title>Tweeter Tweet App</title>
       <link>/projects/tweeter-tweet/</link>
       <pubDate>Tue, 06 Mar 2018 22:30:29 +0800</pubDate>
       
