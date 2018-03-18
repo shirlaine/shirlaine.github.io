@@ -17,16 +17,10 @@
       <pubDate>Tue, 06 Mar 2018 22:30:29 +0800</pubDate>
       
       <guid>/projects/happy-grid/</guid>
-      <description> This project protrays a CSS grid image built in codepen </description>
-    </item>
-    
-    <item>
-      <title>E-commerce App</title>
-      <link>/projects/e-commerce/</link>
-      <pubDate>Tue, 06 Mar 2018 22:30:29 +0800</pubDate>
-      
-      <guid>/projects/e-commerce/</guid>
-      <description> Post under construction. Brb! </description>
+      <description>Build with CSS Grid, Reponsive Design included! Build this breakble toy as a reference which I spoke about at the meetup talk at Talk.CSS and JuniorDevSG
+View recording of the talk titled &amp;ldquo;CSS Grid for Noobs by Noobs&amp;rdquo; here
+View Original Photo inspiration here
+View Codepen Demo here</description>
     </item>
     
     <item>
@@ -35,7 +29,18 @@
       <pubDate>Tue, 06 Mar 2018 22:30:29 +0800</pubDate>
       
       <guid>/projects/client/</guid>
-      <description> Post under construction..brb! </description>
+      <description> Post under construction.. Brb! </description>
+    </item>
+    
+    <item>
+      <title>Health Shop Demo</title>
+      <link>/projects/e-commerce/</link>
+      <pubDate>Tue, 06 Mar 2018 22:30:29 +0800</pubDate>
+      
+      <guid>/projects/e-commerce/</guid>
+      <description>An E-commerce App Build with Ruby on Rails | Bootstrap | Slim | PostgreSql Build for a seller and buyers, to facilitate the purchase of health beverages.
+Features
+ As a User, I can add to my cart as a guest As a User, I can only checkout if i am logged in As a User, I can complete payment upon checkout (BrainTree) As an Admin, I can create, edit and delete products to be sold.</description>
     </item>
     
     <item>
